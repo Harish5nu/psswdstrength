@@ -16,11 +16,11 @@ def check_password_strength(password):
         strength += 1  # Special Characters
     
     if strength == 5:
-        remarks = "Very Strong 💪"
+        remarks = "Very Strong 💪..."
     elif strength >= 3:
-        remarks = "Medium 👍"
+        remarks = "Medium 👍..."
     else:
-        remarks = "Weak ⚠️"
+        remarks = "Weak ⚠️..."
     
     return f"Password Strength: {remarks}"
 
