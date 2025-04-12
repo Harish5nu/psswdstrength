@@ -7,9 +7,9 @@ public class PasswordStrengthChecker {
         String password = scanner.nextLine();
 
         if (isStrongPassword(password)) {
-            System.out.println("✅ Strong Password");
+            System.out.println("✅ Strong Password.....");
         } else {
-            System.out.println("❌ Weak Password. Try including uppercase, lowercase, number, special character, and at least 8 characters.");
+            System.out.println("❌ Weak Password. Try including uppercase, lowercase, number, special character, and at least 8 characters......");
         }
 
         scanner.close();
