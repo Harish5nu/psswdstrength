@@ -25,4 +25,4 @@ def check_password_strength(password):
     return f"Password Strength: {remarks}"
 
 password = input("Enter Password:- ")
-print(check_password_strength(password))
+print(Check_Password_Strength(password))
